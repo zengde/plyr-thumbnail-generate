@@ -5,6 +5,7 @@ plyr player generate thumbnail on fly
 [示例 Demo](https://zengde.github.io/plyr-thumbnail-generate/)
 
 ![screenshot](static/screenshot.png)
+
 结果 
 ![screenshot](static/screenshot2.png)
 

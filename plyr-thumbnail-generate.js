@@ -99,7 +99,7 @@
 
 		let { videoWidth, videoHeight } = player.media;
 
-		let { width: thumbWidth = 220, height: thumbHeight = 170, after = 'download' } = player.config.thumbnailCreate;
+		let { width: thumbWidth = 220, height: thumbHeight = 170, after = 'download' } = player.config.thumbnailCreate || {};
 		let [totalWidth, totalHeight] = [cols * thumbWidth, rows * thumbHeight];
 
 		let { duration, startTime } = player;
